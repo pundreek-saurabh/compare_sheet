@@ -1,0 +1,17 @@
+============================================================
+CSV COMPARISON SUMMARY
+============================================================
+File 1: sample1.csv (4 rows, 4 columns)
+File 2: sample2.csv (4 rows, 5 columns)
+
+STRUCTURAL DIFFERENCES:
+------------------------------
+• Added columns in file2: Department
+
+DATA DIFFERENCES:
+------------------------------
+• Row 1: Modified - Age: '25' -> '26', Salary: '50000' -> '52000'
+• Row 3: Modified - City: 'Chicago' -> 'Los Angeles', Salary: '60000' -> '65000'
+• Row 4: Modified - Age: '28' -> '32', City: 'Boston' -> 'Seattle', Name: 'Carol' -> 'David', Salary: '55000' -> '70000'
+
+📊 TOTAL DIFFERENCES FOUND: 4
